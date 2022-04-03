@@ -130,8 +130,8 @@
         <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -760,8 +760,8 @@
         <translation>Valikud:</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Information</source>

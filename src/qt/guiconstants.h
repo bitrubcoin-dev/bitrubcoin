@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Reacoin"
-#define QAPP_ORG_DOMAIN "reacoin.io"
-#define QAPP_APP_NAME_DEFAULT "Reacoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Reacoin-Qt-testnet"
+#define QAPP_ORG_NAME "BitRubCoin"
+#define QAPP_ORG_DOMAIN "bitrubcoin.io"
+#define QAPP_APP_NAME_DEFAULT "BitRubCoin-Qt"
+#define QAPP_APP_NAME_TESTNET "BitRubCoin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

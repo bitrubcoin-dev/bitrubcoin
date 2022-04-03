@@ -1,7 +1,7 @@
 WINDOWS BUILD NOTES
 ====================
 
-Below are some notes on how to build Reacoin for Windows.
+Below are some notes on how to build BitRubCoin for Windows.
 
 Most developers use cross-compilation from Ubuntu to build executables for
 Windows. This is also used to build the release binaries.
@@ -99,6 +99,6 @@ Installation
 After building using the Windows subsystem it can be useful to copy the compiled
 executables to a directory on the windows drive in the same directory structure
 as they appear in the release `.zip` archive. This can be done in the following
-way. This will install to `c:\workspace\reacoin`, for example:
+way. This will install to `c:\workspace\bitrubcoin`, for example:
 
-    make install DESTDIR=/mnt/c/workspace/reacoin
+    make install DESTDIR=/mnt/c/workspace/bitrubcoin

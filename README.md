@@ -1,4 +1,4 @@
-REACOIN 
+BITRUBCOIN 
 ========
 ![](src/qt/res/icons/splashscreen.png)
 
@@ -6,13 +6,13 @@ REACOIN
 Download wallets:
 ----------
 
-- Wallets available for download : https://github.com/ReacoinOfficial/reacoin/releases/latest
+- Wallets available for download : https://github.com/bitrubcoin/bitrubcoin/releases/latest
 
 
 Specifications:
 ----------------------
 
-https://reacoin.io
+https://bitrubcoin.io
 
 • ASICS resistant
 
@@ -26,13 +26,13 @@ https://reacoin.io
 
 • Block Time:       30 seconds
 
-• Block Reward:     25 REAN
+• Block Reward:     25 BRC
 
 • Difficulty:       Each block
 
 • Halving:          1,000,000 bocks (347 days)
 
-• Ticker:           REAN
+• Ticker:           BRC
 
 • P2P Port:         7997
 
@@ -47,21 +47,21 @@ https://reacoin.io
 Links
 ----------------
 
-• Website: https://reacoin.io
+• Website: https://bitrubcoin.io
 
-• Explorer: https://explorer.reacoin.io
+• Explorer: https://explorer.bitrubcoin.io
 
-• How to mine: https://reacoin.io/mining
+• How to mine: https://bitrubcoin.io/mining
 
-• Mining Pool: https://pool.reacoin.io
+• Mining Pool: https://pool.bitrubcoin.io
 
 • Discord: https://discord.gg/pXPVNBW7ZB
 
-• Telegram: https://t.me/ReacoinREA
+• Telegram: https://t.me/BitRubCoinREA
 
-• Twitter: https://twitter.com/REACOIN1
+• Twitter: https://twitter.com/BITRUBCOIN1
 
-• Reddit: https://reddit.com/user/REACOIN
+• Reddit: https://reddit.com/user/BITRUBCOIN
 
 • Instagram: https://instagram.com/p/CbBUDq0OgBa/
 

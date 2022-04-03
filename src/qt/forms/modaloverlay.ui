@@ -148,7 +148,7 @@ QLabel { color: rgb(40,40,40);  }</string>
                 <string notr="true">color: rgb(200, 200, 200);</string>
                </property>
                <property name="text">
-                <string>Please wait for your wallet has finished synchronizing with the Reacoin network.</string>
+                <string>Please wait for your wallet has finished synchronizing with the BitRubCoin network.</string>
                </property>
                <property name="textFormat">
                 <enum>Qt::RichText</enum>

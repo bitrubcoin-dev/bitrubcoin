@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Reacoin"
-            VALUE "FileDescription",    "reacoin-cli (JSON-RPC client for " PACKAGE_NAME ")"
+            VALUE "CompanyName",        "BitRubCoin"
+            VALUE "FileDescription",    "bitrubcoin-cli (JSON-RPC client for " PACKAGE_NAME ")"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "reacoin-cli"
+            VALUE "InternalName",       "bitrubcoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "reacoin-cli.exe"
-            VALUE "ProductName",        "reacoin-cli"
+            VALUE "OriginalFilename",   "bitrubcoin-cli.exe"
+            VALUE "ProductName",        "bitrubcoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

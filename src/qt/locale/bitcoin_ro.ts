@@ -142,8 +142,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Reacoin address</source>
-        <translation>Trimite monedele către o adresă Reacoin</translation>
+        <source>Send coins to a BitRubCoin address</source>
+        <translation>Trimite monedele către o adresă BitRubCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your Reacoin addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Reacoin pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your BitRubCoin addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de BitRubCoin pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reacoin addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Reacoin specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified BitRubCoin addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de BitRubCoin specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -214,12 +214,12 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reacoin: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și reacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and bitrubcoin: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și bitrubcoin: URIs)</translation>
     </message>
     <message>
-        <source>Open a reacoin: URI or payment request</source>
-        <translation>Deschide un reacoin: URI sau cerere de plată</translation>
+        <source>Open a bitrubcoin: URI or payment request</source>
+        <translation>Deschide un bitrubcoin: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -748,8 +748,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Information</source>

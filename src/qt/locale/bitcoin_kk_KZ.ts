@@ -70,7 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Reacoin</source>
+        <source>BitRubCoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>

@@ -114,8 +114,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -484,8 +484,8 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Craidd Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>Craidd BitRubCoin</translation>
     </message>
     <message>
         <source>Information</source>

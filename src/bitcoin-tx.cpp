@@ -54,10 +54,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || IsArgSet("-?") || IsArgSet("-h") || IsArgSet("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = strprintf(_("%s reacoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = strprintf(_("%s bitrubcoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  reacoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded reacoin transaction") + "\n" +
-              "  reacoin-tx [options] -create [commands]   " + _("Create hex-encoded reacoin transaction") + "\n" +
+              "  bitrubcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded bitrubcoin transaction") + "\n" +
+              "  bitrubcoin-tx [options] -create [commands]   " + _("Create hex-encoded bitrubcoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

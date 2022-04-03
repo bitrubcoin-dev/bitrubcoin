@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -708,8 +708,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin மையம்</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

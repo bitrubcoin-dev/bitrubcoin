@@ -506,14 +506,14 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/ReacoinOfficial/reacoin>";
-    const std::string URL_WEBSITE = "<https://reacoin.io>";
-    const std::string URL_EXPLORER = "<https://explorer.reacoin.io>";
-    const std::string URL_OFFICIALPOOL = "<https://pool.reacoin.io/>";
-    const std::string URL_WALLETS = "<https://github.com/ReacoinOfficial/reacoin/releases/latest>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/bitrubcoin/bitrubcoin>";
+    const std::string URL_WEBSITE = "<https://bitrubcoin.io>";
+    const std::string URL_EXPLORER = "<https://explorer.bitrubcoin.io>";
+    const std::string URL_OFFICIALPOOL = "<https://pool.bitrubcoin.io/>";
+    const std::string URL_WALLETS = "<https://github.com/bitrubcoin/bitrubcoin/releases/latest>";
     const std::string URL_DISCORD = "<https://discord.gg/pXPVNBW7ZB>";
-    const std::string URL_TWITTER = "<https://twitter.com/REACOIN1>";
-    const std::string URL_TELEGRAM = "<https://t.me/ReacoinREA>";
+    const std::string URL_TWITTER = "<https://twitter.com/BITRUBCOIN1>";
+    const std::string URL_TELEGRAM = "<https://t.me/BitRubCoinREA>";
 
 
 //    return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2022, COPYRIGHT_YEAR) + " ") + "\n" +
@@ -816,7 +816,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Reacoin version %s\n", FormatFullVersion());
+    LogPrintf("BitRubCoin version %s\n", FormatFullVersion());
 }
 
 namespace { // Variables internal to initialization process only

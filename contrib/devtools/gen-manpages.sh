@@ -4,15 +4,15 @@ TOPDIR=${TOPDIR:-$(git rev-parse --show-toplevel)}
 SRCDIR=${SRCDIR:-$TOPDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
-BITCOIND=${BITCOIND:-$SRCDIR/reacoind}
-BITCOINCLI=${BITCOINCLI:-$SRCDIR/reacoin-cli}
-BITCOINTX=${BITCOINTX:-$SRCDIR/reacoin-tx}
-BITCOINQT=${BITCOINQT:-$SRCDIR/qt/reacoin-qt}
+BITCOIND=${BITCOIND:-$SRCDIR/bitrubcoind}
+BITCOINCLI=${BITCOINCLI:-$SRCDIR/bitrubcoin-cli}
+BITCOINTX=${BITCOINTX:-$SRCDIR/bitrubcoin-tx}
+BITCOINQT=${BITCOINQT:-$SRCDIR/qt/bitrubcoin-qt}
 
-[ ! -x $BITCOIND ] && echo "$REACOIND not found or not executable." && exit 1
+[ ! -x $BITCOIND ] && echo "$BITRUBCOIND not found or not executable." && exit 1
 
 # The autodetected version git tag can screw up manpage output a little bit
-BTCVER=($($REACOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
+BTCVER=($($BITRUBCOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 
 # Create a footer file with copyright content.
 # This gets autodetected fine for bitcoind if --version-string is not set,

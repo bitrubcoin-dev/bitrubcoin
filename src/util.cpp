@@ -103,8 +103,8 @@ namespace boost {
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "reacoin.conf";
-const char * const BITCOIN_PID_FILENAME = "reacoin.pid";
+const char * const BITCOIN_CONF_FILENAME = "bitrubcoin.conf";
+const char * const BITCOIN_PID_FILENAME = "bitrubcoin.pid";
 
 CCriticalSection cs_args;
 map<string, string> mapArgs;
@@ -462,7 +462,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "reacoin";
+    const char* pszModule = "bitrubcoin";
 #endif
     if (pex)
         return strprintf(
@@ -488,7 +488,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Reacoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "BitRubCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -498,10 +498,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Reacoin";
+    return pathRet / "Library/Application Support/BitRubCoin";
 #else
     // Unix
-    return pathRet / ".reacoin";
+    return pathRet / ".bitrubcoin";
 #endif
 #endif
 }
@@ -571,7 +571,7 @@ void ReadConfigFile(const std::string& confPath)
 //            fclose(configFile);
 
         if (configFile != NULL) {
-            std::string strHeader = "# Reacoin Coin config file\n"
+            std::string strHeader = "# BitRubCoin Coin config file\n"
                           "rpcuser=username\n"
                           "rpcpassword=password\n"
                           "server=1\n"

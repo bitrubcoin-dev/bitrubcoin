@@ -130,8 +130,8 @@
         <translation>Reindexando bloques no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Reacoin address</source>
-        <translation>Enviar moedas a unha dirección Reacoin</translation>
+        <source>Send coins to a BitRubCoin address</source>
+        <translation>Enviar moedas a unha dirección BitRubCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -154,8 +154,8 @@
         <translation>&amp;Verificar mensaxe...</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -182,12 +182,12 @@
         <translation>Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
     </message>
     <message>
-        <source>Sign messages with your Reacoin addresses to prove you own them</source>
-        <translation>Asina mensaxes coas túas direccións Reacoin para probar que te pertencen</translation>
+        <source>Sign messages with your BitRubCoin addresses to prove you own them</source>
+        <translation>Asina mensaxes coas túas direccións BitRubCoin para probar que te pertencen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reacoin addresses</source>
-        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Reacoin dadas.</translation>
+        <source>Verify messages to ensure they were signed with specified BitRubCoin addresses</source>
+        <translation>Verificar mensaxes para asegurar que foron asinados con direccións BitRubCoin dadas.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -206,8 +206,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reacoin: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e reacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and bitrubcoin: URIs)</source>
+        <translation>Solicitar pagos (xenera códigos QR e bitrubcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -218,8 +218,8 @@
         <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
-        <source>Open a reacoin: URI or payment request</source>
-        <translation>Abrir un reacoin: URI ou solicitude de pago</translation>
+        <source>Open a bitrubcoin: URI or payment request</source>
+        <translation>Abrir un bitrubcoin: URI ou solicitude de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -466,8 +466,8 @@
         <translation>Moedeiro</translation>
     </message>
     <message>
-        <source>Automatically open the Reacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente o porto do cliente Reacoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+        <source>Automatically open the BitRubCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente o porto do cliente BitRubCoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -545,8 +545,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Reacoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitRubCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede BitRubCoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -927,8 +927,8 @@
         <translation>Copiar a sinatura actual ao portapapeis do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reacoin address</source>
-        <translation>Asina a mensaxe para probar que posees esta dirección Reacoin</translation>
+        <source>Sign the message to prove you own this BitRubCoin address</source>
+        <translation>Asina a mensaxe para probar que posees esta dirección BitRubCoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -947,8 +947,8 @@
         <translation>&amp;Verificar Mensaxe</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reacoin address</source>
-        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Reacoin especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified BitRubCoin address</source>
+        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección BitRubCoin especificada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1028,8 +1028,8 @@
         <translation>Executar no fondo como un demo e aceptar comandos</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Core de Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>Core de BitRubCoin</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

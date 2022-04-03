@@ -218,8 +218,8 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Reacoin address</source>
-        <translation>Envoyer des pièces à une adresse Reacoin</translation>
+        <source>Send coins to a BitRubCoin address</source>
+        <translation>Envoyer des pièces à une adresse BitRubCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -242,8 +242,8 @@
         <translation>&amp;Vérification du message</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -270,8 +270,8 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your Reacoin addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses Reacoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your BitRubCoin addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses BitRubCoin pour prouver que vous les détenez</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -290,24 +290,24 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reacoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et reacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and bitrubcoin: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et bitrubcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
     </message>
     <message>
-        <source>Open a reacoin: URI or payment request</source>
-        <translation>Ouvrir un reacoin: URI ou demande de paiement</translation>
+        <source>Open a bitrubcoin: URI or payment request</source>
+        <translation>Ouvrir un bitrubcoin: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reacoin network</source>
-        <translation><numerusform>%n connexion active au réseau Reacoin</numerusform><numerusform>%n connexions actives au réseau Reacoin</numerusform></translation>
+        <source>%n active connection(s) to BitRubCoin network</source>
+        <translation><numerusform>%n connexion active au réseau BitRubCoin</numerusform><numerusform>%n connexions actives au réseau BitRubCoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -684,8 +684,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically open the Reacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Reacoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the BitRubCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client BitRubCoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -844,8 +844,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Reacoin address (e.g. %1)</source>
-        <translation>Entrer une adresse Reacoin (e.g. %1)</translation>
+        <source>Enter a BitRubCoin address (e.g. %1)</source>
+        <translation>Entrer une adresse BitRubCoin (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1662,8 +1662,8 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

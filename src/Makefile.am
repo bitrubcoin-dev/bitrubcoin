@@ -66,11 +66,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += reacoind
+  bin_PROGRAMS += bitrubcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += reacoin-cli reacoin-tx
+  bin_PROGRAMS += bitrubcoin-cli bitrubcoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -362,16 +362,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-reacoind_SOURCES = bitcoind.cpp
-reacoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-reacoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-reacoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bitrubcoind_SOURCES = bitcoind.cpp
+bitrubcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+bitrubcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bitrubcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-reacoind_SOURCES += bitcoind-res.rc
+bitrubcoind_SOURCES += bitcoind-res.rc
 endif
 
-reacoind_LDADD = \
+bitrubcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -384,38 +384,38 @@ reacoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-reacoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+bitrubcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-reacoin_cli_SOURCES = bitcoin-cli.cpp
-reacoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-reacoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-reacoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bitrubcoin_cli_SOURCES = bitcoin-cli.cpp
+bitrubcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+bitrubcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bitrubcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-reacoin_cli_SOURCES += bitcoin-cli-res.rc
+bitrubcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-reacoin_cli_LDADD = \
+bitrubcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-reacoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+bitrubcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-reacoin_tx_SOURCES = bitcoin-tx.cpp
-reacoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-reacoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-reacoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bitrubcoin_tx_SOURCES = bitcoin-tx.cpp
+bitrubcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+bitrubcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bitrubcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-reacoin_tx_SOURCES += bitcoin-tx-res.rc
+bitrubcoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-reacoin_tx_LDADD = \
+bitrubcoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -423,7 +423,7 @@ reacoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-reacoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+bitrubcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

@@ -166,8 +166,8 @@
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a Reacoin address</source>
-        <translation>Lähetä kolikoita Reacoin-osoitteeseen</translation>
+        <source>Send coins to a BitRubCoin address</source>
+        <translation>Lähetä kolikoita BitRubCoin-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -190,8 +190,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -211,19 +211,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Reacoin-ikkuna</translation>
+        <translation>Näytä tai piilota BitRubCoin-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Reacoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Reacoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your BitRubCoin addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla BitRubCoin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reacoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Reacoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified BitRubCoin addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä BitRubCoin -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -242,8 +242,8 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reacoin: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja reacoin: URIt)</translation>
+        <source>Request payments (generates QR codes and bitrubcoin: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja bitrubcoin: URIt)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -254,16 +254,16 @@
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a reacoin: URI or payment request</source>
-        <translation>Avaa reacoin: URI tai maksupyyntö</translation>
+        <source>Open a bitrubcoin: URI or payment request</source>
+        <translation>Avaa bitrubcoin: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reacoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys Reacoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Reacoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to BitRubCoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys BitRubCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä BitRubCoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -306,8 +306,8 @@
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Reacoin command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Reacoinin komentorivivalinnoista</translation>
+        <source>Show the %1 help message to get a list with possible BitRubCoin command-line options</source>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista BitRubCoinin komentorivivalinnoista</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -551,8 +551,8 @@
         <translation>Tämä on ensimmäinen kerta, kun %1 on käynnistetty, joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Reacoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 lataa ja tallentaa kopion Reacoinin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>%1 will download and store a copy of the BitRubCoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 lataa ja tallentaa kopion BitRubCoinin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -708,16 +708,16 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Reacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Reacoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the BitRubCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa BitRubCoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Connect to the Reacoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Reacoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the BitRubCoin network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä BitRubCoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -756,8 +756,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Reacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä Reacoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <source>Connect to the BitRubCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Yhdistä BitRubCoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -793,11 +793,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona reacoin-määrät näytetään</translation>
+        <translation>Yksikkö jona bitrubcoin-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti reacoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti bitrubcoin-määrien näyttämiseen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -847,8 +847,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Reacoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitRubCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu BitRubCoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Reacoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien BitRubCoinien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -936,8 +936,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Reacoin address (e.g. %1)</source>
-        <translation>Syötä Reacoin-osoite (esim. %1)</translation>
+        <source>Enter a BitRubCoin address (e.g. %1)</source>
+        <translation>Syötä BitRubCoin-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1276,8 +1276,8 @@
         <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reacoin network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Reacoin-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the BitRubCoin network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä BitRubCoin-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1354,7 +1354,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Reacoineja</translation>
+        <translation>Lähetä BitRubCoineja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1508,8 +1508,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Reacoin address to send the payment to</source>
-        <translation>Reacoin-osoite johon maksu lähetetään</translation>
+        <source>The BitRubCoin address to send the payment to</source>
+        <translation>BitRubCoin-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1528,8 +1528,8 @@
         <translation>Poista tämä alkio</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less reacoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän reacoineja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitrubcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän bitrubcoineja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1552,8 +1552,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the reacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reacoin network.</source>
-        <translation>Viesti joka liitettiin reacoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Reacoin-verkkoon.</translation>
+        <source>A message that was attached to the bitrubcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the BitRubCoin network.</source>
+        <translation>Viesti joka liitettiin bitrubcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä BitRubCoin-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1589,8 +1589,8 @@
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>The Reacoin address to sign the message with</source>
-        <translation>Reacoin-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The BitRubCoin address to sign the message with</source>
+        <translation>BitRubCoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1621,8 +1621,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reacoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Reacoin-osoitteen</translation>
+        <source>Sign the message to prove you own this BitRubCoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän BitRubCoin-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1641,12 +1641,12 @@
         <translation>&amp;Varmista viesti</translation>
     </message>
     <message>
-        <source>The Reacoin address the message was signed with</source>
-        <translation>Reacoin-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The BitRubCoin address the message was signed with</source>
+        <translation>BitRubCoin-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reacoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Reacoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified BitRubCoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä BitRubCoin-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1778,8 +1778,8 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin-ydin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin-ydin</translation>
     </message>
     <message>
         <source>The %s developers</source>

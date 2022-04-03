@@ -41,7 +41,7 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("REAN");
+    case BTC: return QString("BRC");
     case mBTC: return QString("mREA");
     case uBTC: return QString::fromUtf8("μREA");
     default: return QString("???");
@@ -52,9 +52,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Reacoins");
-    case mBTC: return QString("Milli-Reacoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Reacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case BTC: return QString("BitRubCoins");
+    case mBTC: return QString("Milli-BitRubCoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-BitRubCoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

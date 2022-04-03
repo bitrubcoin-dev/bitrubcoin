@@ -1466,7 +1466,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Reacoin " + FormatFullVersion();
+        std::string strDesc = "BitRubCoin " + FormatFullVersion();
 
         try {
             while (true) {

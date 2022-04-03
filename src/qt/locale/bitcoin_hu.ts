@@ -158,8 +158,8 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Reacoin address</source>
-        <translation>Reacoin küldése megadott címre</translation>
+        <source>Send coins to a BitRubCoin address</source>
+        <translation>BitRubCoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -182,8 +182,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -210,12 +210,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Reacoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Reacoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your BitRubCoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a BitRubCoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reacoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Reacoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified BitRubCoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt BitRubCoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -234,8 +234,8 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reacoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "reacoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and bitrubcoin: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "bitrubcoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -246,16 +246,16 @@
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a reacoin: URI or payment request</source>
-        <translation>"reacoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a bitrubcoin: URI or payment request</source>
+        <translation>"bitrubcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reacoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Reacoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Reacoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to BitRubCoin network</source>
+        <translation><numerusform>%n aktív kapcsolat a BitRubCoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a BitRubCoin hálózathoz</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -592,16 +592,16 @@
         <translation>Szakértő</translation>
     </message>
     <message>
-        <source>Automatically open the Reacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Reacoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the BitRubCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A BitRubCoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the Reacoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Reacoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the BitRubCoin network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a BitRubCoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -695,8 +695,8 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Reacoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitRubCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a BitRubCoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -764,8 +764,8 @@
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Reacoin address (e.g. %1)</source>
-        <translation>Ad meg egy Reacoin címet (pl: %1)</translation>
+        <source>Enter a BitRubCoin address (e.g. %1)</source>
+        <translation>Ad meg egy BitRubCoin címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1285,7 +1285,7 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reacoin address</source>
+        <source>Sign the message to prove you own this BitRubCoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1378,8 +1378,8 @@
 </translation>
     </message>
     <message>
-        <source>Reacoin</source>
-        <translation>Reacoin</translation>
+        <source>BitRubCoin</source>
+        <translation>BitRubCoin</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -1533,7 +1533,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég reacoinod.</translation>
+        <translation>Nincs elég bitrubcoinod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

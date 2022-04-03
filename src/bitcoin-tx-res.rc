@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Reacoin"
-            VALUE "FileDescription",    "reacoin-tx (CLI Reacoin transaction editor utility)"
+            VALUE "CompanyName",        "BitRubCoin"
+            VALUE "FileDescription",    "bitrubcoin-tx (CLI BitRubCoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "reacoin-tx"
+            VALUE "InternalName",       "bitrubcoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "reacoin-tx.exe"
-            VALUE "ProductName",        "reacoin-tx"
+            VALUE "OriginalFilename",   "bitrubcoin-tx.exe"
+            VALUE "ProductName",        "bitrubcoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.reacoin.Reacoin-Qt";
+        return @"org.bitrubcoin.BitRubCoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

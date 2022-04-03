@@ -1,41 +1,41 @@
-Reacoin 1.0.0
+BitRubCoin 1.0.0
 =====================
 
 Setup
 ---------------------
-Reacoin is the original Reacoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Reacoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+BitRubCoin is the original BitRubCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of BitRubCoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Reacoin, visit [reacoin.io](https://reacoin.io).
+To download BitRubCoin, visit [bitrubcoin.io](https://bitrubcoin.io).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Reacoin on your native platform.
+The following are some helpful notes on how to run BitRubCoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/reacoin-qt` (GUI) or
-- `bin/reacoind` (headless)
+- `bin/bitrubcoin-qt` (GUI) or
+- `bin/bitrubcoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run reacoin-qt.exe.
+Unpack the files into a directory, and then run bitrubcoin-qt.exe.
 
 ### OS X
 
-Drag Reacoin-Core to your applications folder, and then run Reacoin-Core.
+Drag BitRubCoin-Core to your applications folder, and then run BitRubCoin-Core.
 
 ### Need Help?
 
-* See the documentation at the [Reacoin Wiki](https://reacoin.io/)
+* See the documentation at the [BitRubCoin Wiki](https://bitrubcoin.io/)
 for help and more information.
-* Ask for help on [#reacoin](http://webchat.freenode.net?channels=reacoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=reacoin).
-* Ask for help on the [ReacoinTalk](https://reacointalk.io/) forums.
+* Ask for help on [#bitrubcoin](http://webchat.freenode.net?channels=bitrubcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bitrubcoin).
+* Ask for help on the [BitRubCoinTalk](https://bitrubcointalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Reacoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build BitRubCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -45,12 +45,12 @@ The following are developer notes on how to build Reacoin on your native platfor
 
 Development
 ---------------------
-The Reacoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The BitRubCoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/reacoin/doxygen/)
+- [Source Code Documentation (External Link)](https://dev.visucore.com/bitrubcoin/doxygen/)
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
 - [Travis CI](travis-ci.md)
@@ -61,8 +61,8 @@ The Reacoin repo's [root README](/README.md) contains relevant information on th
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [ReacoinTalk](https://reacointalk.io/) forums.
-* Discuss general Reacoin development on #reacoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=reacoin-dev).
+* Discuss on the [BitRubCoinTalk](https://bitrubcointalk.io/) forums.
+* Discuss general BitRubCoin development on #bitrubcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitrubcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

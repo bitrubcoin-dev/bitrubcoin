@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/bitrubcoin/bitrubcoin.git"
+- "url": "https://github.com/BitRubCoin/bitrubcoin.git"
   "dir": "bitrubcoin"
 files:
 - "MacOSX10.11.sdk.tar.gz"

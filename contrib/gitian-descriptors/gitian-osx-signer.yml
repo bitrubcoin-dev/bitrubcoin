@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/bitrubcoin/bitrubcoin-detached-sigs.git"
+- "url": "https://github.com/BitRubCoin/bitrubcoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "bitrubcoin-osx-unsigned.tar.gz"

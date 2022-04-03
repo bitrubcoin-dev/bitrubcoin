@@ -309,8 +309,8 @@ Clone the git repositories for bitrubcoin and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/bitrubcoin/bitrubcoin
-git clone https://github.com/bitrubcoin/gitian.sigs.ltc.git
+git clone https://github.com/BitRubCoin/bitrubcoin
+git clone https://github.com/BitRubCoin/gitian.sigs.ltc.git
 ```
 
 Setting up the Gitian image
@@ -367,7 +367,7 @@ Output from `gbuild` will look something like
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
-    From https://github.com/bitrubcoin/bitrubcoin
+    From https://github.com/BitRubCoin/bitrubcoin
     ... (new tags, new branch etc)
     --- Building for trusty amd64 ---
     Stopping target if it is up
@@ -443,7 +443,7 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
-git clone https://github.com/bitrubcoin/bitrubcoin-detached-sigs.git
+git clone https://github.com/BitRubCoin/bitrubcoin-detached-sigs.git
 
 BTCPATH=/some/root/path/bitrubcoin
 SIGPATH=/some/root/path/bitrubcoin-detached-sigs
@@ -475,5 +475,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[bitrubcoin/gitian.sigs.ltc](https://github.com/bitrubcoin/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[bitrubcoin/gitian.sigs.ltc](https://github.com/BitRubCoin/gitian.sigs.ltc/) repository, or if that's not possible create a pull
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.

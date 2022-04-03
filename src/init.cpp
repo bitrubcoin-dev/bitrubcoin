@@ -506,11 +506,11 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/bitrubcoin/bitrubcoin>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/BitRubCoin/bitrubcoin>";
     const std::string URL_WEBSITE = "<https://bitrubcoin.io>";
     const std::string URL_EXPLORER = "<https://explorer.bitrubcoin.io>";
     const std::string URL_OFFICIALPOOL = "<https://pool.bitrubcoin.io/>";
-    const std::string URL_WALLETS = "<https://github.com/bitrubcoin/bitrubcoin/releases/latest>";
+    const std::string URL_WALLETS = "<https://github.com/BitRubCoin/bitrubcoin/releases/latest>";
     const std::string URL_DISCORD = "<https://discord.gg/pXPVNBW7ZB>";
     const std::string URL_TWITTER = "<https://twitter.com/BITRUBCOIN1>";
     const std::string URL_TELEGRAM = "<https://t.me/BitRubCoinREA>";

@@ -6,7 +6,7 @@ BITRUBCOIN
 Download wallets:
 ----------
 
-- Wallets available for download : https://github.com/bitrubcoin/bitrubcoin/releases/latest
+- Wallets available for download : https://github.com/BitRubCoin/bitrubcoin/releases/latest
 
 
 Specifications:

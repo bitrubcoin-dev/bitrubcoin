@@ -29,7 +29,7 @@ Build BitRubCoin
 
 1. Clone the bitrubcoin source code and cd into `bitrubcoin`
 
-        git clone https://github.com/bitrubcoin/bitrubcoin
+        git clone https://github.com/BitRubCoin/bitrubcoin
         cd bitrubcoin
 
 2.  Build bitrubcoin-core:

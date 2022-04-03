@@ -28,7 +28,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/bitrubcoin/bitrubcoin.git"
+- "url": "https://github.com/BitRubCoin/bitrubcoin.git"
   "dir": "bitrubcoin"
 files: []
 script: |
